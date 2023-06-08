@@ -382,15 +382,15 @@ h1,h2,h3,h4,h5,h6 {
   border: 1px solid var(--white);
   top: 9px;
   left: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .custom-checkbox__icon::after {
   content: "";
     position: absolute;
-    /* top: 0;
-    right:0;
-    bottom: 0;
-    left: 0; */
+    display: flex;
     width: 4px;
     height: 4px;
     background-color: var(--dark-pink);
@@ -404,8 +404,8 @@ h1,h2,h3,h4,h5,h6 {
 .custom-checkbox__icon-1::after {
   content: "";
   position: absolute;
-  top: 15px;
-  right: 82%;
+  /* top: 15px;
+  right: 82%; */
   width: 4px;
   height: 4px;
   background-color: var(--dark-pink);
@@ -419,8 +419,8 @@ h1,h2,h3,h4,h5,h6 {
 .custom-checkbox__icon-2::after {
   content: "";
   position: absolute;
-  top: 15px;
-  right: 81%;
+  /* top: 15px;
+  right: 81%; */
   width: 4px;
   height: 4px;
   background-color: var(--dark-pink);
@@ -434,8 +434,8 @@ h1,h2,h3,h4,h5,h6 {
 .custom-checkbox__icon-3::after {
   content: "";
   position: absolute;
-  top: 15px;
-  right: 90.5%;
+  /* top: 15px;
+  right: 90.5%; */
   width: 4px;
   height: 4px;
   background-color: var(--dark-pink);
