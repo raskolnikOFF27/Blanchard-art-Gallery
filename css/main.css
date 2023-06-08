@@ -1,9 +1,3 @@
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v8.4.14,
-* Autoprefixer: v10.4.7
-* Browsers: last 4 version
-*/
 
 :root {
   --white: #fff;
@@ -391,6 +385,9 @@ h1,h2,h3,h4,h5,h6 {
   content: "";
     position: absolute;
     display: flex;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
     width: 4px;
     height: 4px;
     background-color: var(--dark-pink);
@@ -404,8 +401,7 @@ h1,h2,h3,h4,h5,h6 {
 .custom-checkbox__icon-1::after {
   content: "";
   position: absolute;
-  /* top: 15px;
-  right: 82%; */
+  right: 82%;
   width: 4px;
   height: 4px;
   background-color: var(--dark-pink);
@@ -419,8 +415,8 @@ h1,h2,h3,h4,h5,h6 {
 .custom-checkbox__icon-2::after {
   content: "";
   position: absolute;
-  /* top: 15px;
-  right: 81%; */
+  top: 15px;
+  right: 81%;
   width: 4px;
   height: 4px;
   background-color: var(--dark-pink);
@@ -434,8 +430,8 @@ h1,h2,h3,h4,h5,h6 {
 .custom-checkbox__icon-3::after {
   content: "";
   position: absolute;
-  /* top: 15px;
-  right: 90.5%; */
+  top: 15px;
+  right: 90.5%;
   width: 4px;
   height: 4px;
   background-color: var(--dark-pink);
@@ -1036,6 +1032,7 @@ h1,h2,h3,h4,h5,h6 {
   -webkit-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
+
 }
 
 .custom-checkbox__input:hover + .custom-checkbox__icon {
